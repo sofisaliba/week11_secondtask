@@ -1,0 +1,74 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #taskInput {
+    width: 60%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: brown;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    width: 17rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  
+  .tasks {
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  li {
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  .completed:hover {
+    color: brown;
+  }
+  li:hover {
+    background-color: blanchedalmond;
+  }
+  #list>li {
+cursor: pointer;
+  }
+   
